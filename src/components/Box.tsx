@@ -5,8 +5,8 @@ import classNames from 'classnames/bind';
 const classes = classNames.bind(styles);
 
 interface BoxProps {
-  value: string,
-  status: BoxStatus
+  value: string;
+  status: BoxStatus;
 }
 
 export default function Box({value, status}: BoxProps) {

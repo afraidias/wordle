@@ -1,5 +1,5 @@
-import React from 'react';
 import Wordle from './components/worlde';
+import './App.css';
 
 function App() {
   return (
